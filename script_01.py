@@ -10,5 +10,3 @@ for i in range(1,12):
     response = requests.get(image_url)
     with open(str(i)+".jpeg", "wb") as f:
         f.write(response.content)#script_01.py
-import requests
-import random
